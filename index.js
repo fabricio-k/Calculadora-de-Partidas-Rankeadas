@@ -1,4 +1,13 @@
 console.log("teste")
-let vitorias = 0
-let derrotas = 0
+
+let resultado = contagem()
+console.log(resultado)
+
+
+function contagem(){
+    let vitorias = 7
+    let derrotas = 5
+    let diminui = vitorias - derrotas
+    return diminui
+}
 
