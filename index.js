@@ -1,11 +1,9 @@
-let resultado = contagem()
+let resultado = contagem(120,10)
 let nivel;
 console.log(resultado)
 
 
-function contagem(){
-    let vitorias = 120
-    let derrotas = 10
+function contagem(vitorias, derrotas){
     let diminui = vitorias - derrotas
     return diminui
 }
@@ -13,7 +11,7 @@ function contagem(){
 if(resultado <= 10){
     nivel = "Ferro"
 }else if(resultado >= 101  ){
-    nivel = "imortal"
+    nivel = "Imortal"
 }
 switch(true){
     case resultado >=11 && resultado <= 20:
